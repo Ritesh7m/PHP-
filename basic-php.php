@@ -11,6 +11,9 @@ echo "My name is " . $name;
 $age = 24; // integer
 $cgpa = 8.5; // float 
 $isStudent = true; // boolean 
+$marks = array(45,65,78,98); // array
+print_r($marks);
+echo "<br>";
 
 // Arithmatic operator 
 // + - * / ** %
@@ -22,29 +25,7 @@ echo "product of $x and $y is ", ($x * $y) . "<br>";
 echo "exponent of $x and $y is ", ($x ** $y) . "<br>";
 echo "divide of $x and $y is ", ($x / $y) . "<br>";
 // increment and decrement operator 
-
 $count = 10;
 $count += 5;
 echo $count;
-
-
-
-
-
-
 ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learning php</title>
-</head>
-
-<body>
-    <h1>to learn php click the button</h1>
-    <button>click me</button>
-</body>
-
-</html>
