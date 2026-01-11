@@ -27,5 +27,11 @@ echo "divide of $x and $y is ", ($x / $y) . "<br>";
 // increment and decrement operator 
 $count = 10;
 $count += 5;
-echo $count;
+echo $count ."<br>";
+ // constant---> constant are like variable except that once they are defined they cannot be changed or redefine. by using const keyword we can define the constant variable 
+ 
+ const data = " i am constant i cannot change<br>";
+ echo data;
+ define("greet","hello ");
+ echo greet;
 ?>
