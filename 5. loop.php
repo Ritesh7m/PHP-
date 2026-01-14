@@ -43,4 +43,21 @@ foreach($colors as $color){
     echo ' color is: '.$color. '<br>';
 }
 
+// goto statement --> it is used to jump to a specific part of the code 
+ $count =1;
+
+ start:
+ echo "the count is : $count <br>";
+ $count++;
+
+ if($count <=3){
+    goto start;
+}
+else{
+    echo "end of the loop";
+}
+
+
+
+
 ?>
