@@ -26,13 +26,29 @@ echo greet_user(); // here if i dont pass any parameter it will take the default
 //  variable function ---> when a function name is stored in a variable and then that variable is used to call the function 
 
 function say_hello(){
-    echo " hello from php <br>";
+    echo " hello Ritesh <br>";
 }
 
 $func = "say_hello"; // storing function name in a variable 
 
 $func(); // calling the function using variable
 
+// callback function ---> a function that is passed as an argument to another function 
+
+function display_message($a){
+    echo "Message: $a <br>";
+}
+
+// display_message($say_hello());  // passing function as argument 
+
+// some built in function in php 
+$string = "Hello World from PHP";
+echo strtolower($string). "<br>";
+echo strtoupper($string). "<br>";
+echo "there are ". strlen($string) ." characters <br>";
+
+$a =10;
+var_dump($a);
 
 
 
