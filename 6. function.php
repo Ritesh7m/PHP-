@@ -43,12 +43,31 @@ function display_message($a){
 
 // some built in function in php 
 $string = "Hello World from PHP";
-echo strtolower($string). "<br>";
-echo strtoupper($string). "<br>";
-echo "there are ". strlen($string) ." characters <br>";
-
+echo strtolower($string). "<br>"; // convert string to lowercase
+echo strtoupper($string). "<br>"; // convert string to uppercase
+echo "there are ". strlen($string) ." characters <br>"; // length of string
 $a =10;
-var_dump($a);
+var_dump($a); // display the  type and value of variable
+echo "<br>";
+
+echo date("Y-m-d H:i:s") . "<br>"; // current date and time
+
+ echo rand(1,100) . "<br>"; // generate random number between 1 to 100
+
+ // like that  is_string(), is_int(), is_array()  and many more built in function 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
